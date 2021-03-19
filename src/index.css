@@ -7,7 +7,94 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*-----Generals------*/
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  height: 30px;
+}
+
+/*--------Navbar------------*/
+
+Navbar {
+  position: fixed;
+}
+
+.navbarcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+li:hover {
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #00b5ff;
+  padding: 10px;
+}
+
+/*-------Buttons---------*/
+
+.btn {
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #00b5ff;
+  padding: 15px 30px;
+  border: none;
+}
+
+/*--------Header---------*/
+
+.container-header {
+  background-image: url(./assets/background.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 860px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-center {
+  margin: 0 50px;
+  position: absolute;
+  left: 12%;
+}
+
+.header-center h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.header-center h1 span {
+  color: #00b5ff;
+}
+
+/*----------Features-------------*/
