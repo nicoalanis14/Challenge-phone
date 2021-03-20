@@ -28,14 +28,17 @@ img {
 
 /*--------Navbar------------*/
 
-Navbar {
-  position: fixed;
-}
-
 .navbarcontainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #edebf8;
+  opacity: 0.8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 ul {
@@ -76,7 +79,7 @@ li:hover {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 860px;
+  height: 940px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -96,5 +99,107 @@ li:hover {
 .header-center h1 span {
   color: #00b5ff;
 }
-
 /*----------Features-------------*/
+
+.features-container {
+  height: 940px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-featurebox img {
+  height: 250px;
+}
+
+.featurebox-container {
+  width: 300px;
+  height: 450px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+/*------------About-------------------*/
+
+.about-container {
+  background-image: url(./assets/presentation.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 940px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-center {
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 20px;
+  border: solid 1px #000000;
+}
+.about-center h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.about-center h1 span {
+  color: #00b5ff;
+}
+
+/*-------------UI SS--------------*/
+
+.ui-container {
+  height: 940px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-center {
+  width: 25%;
+}
+
+.ui-img img {
+  height: 600px;
+}
+
+.ui-center h1 {
+  color: #00b5ff;
+  font-weight: 300;
+}
+
+/*----------Download-----------*/
+
+.download-container {
+  height: 940px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-center {
+  width: 30%;
+}
+
+.download-img img {
+  height: 600px;
+}
+
+.download-center h1 {
+  color: #00b5ff;
+  font-weight: 300;
+}
+
+.container-footer {
+  background-color: #00b5ff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

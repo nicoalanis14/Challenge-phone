@@ -7,13 +7,13 @@ import imagen3 from '../assets/feature_3.png';
 const Features = () => {
   const feature = [
     {
-      img:  imagen1 ,
+      img: imagen1,
       title: 'Development Course',
       parrafo:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum.'
     },
     {
-      img:  imagen2 ,
+      img: imagen2,
       title: 'Money Saving Services',
       parrafo:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum.'
@@ -26,7 +26,7 @@ const Features = () => {
     }
   ];
   return (
-    <div>
+    <div className="features-container">
       {feature.map((feat) => (
         <Featuresbox img={feat.img} title={feat.title} parrafo={feat.parrafo} />
       ))}
