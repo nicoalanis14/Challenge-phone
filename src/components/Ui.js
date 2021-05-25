@@ -3,8 +3,11 @@ import imagen4 from '../assets/Frame_19.png';
 
 const Ui = () => {
   return (
-    <div className="ui-container">
-      <div className="ui-img">
+    <div
+      className="container d-flex align-items-center justify-content-evenly"
+      id="ui"
+    >
+      <div className="ui-img img-fluid">
         <img src={imagen4} alt="frame"></img>
       </div>
       <div className="ui-center">
@@ -15,7 +18,7 @@ const Ui = () => {
           consectetur adipiscing elit. Maecenas convallis vel purus in
           dignissim.
         </p>
-        <button className="btn">Get The App</button>
+        <button className="btn btn-primary">Get The App</button>
       </div>
     </div>
   );

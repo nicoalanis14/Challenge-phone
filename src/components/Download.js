@@ -3,7 +3,10 @@ import imagen5 from '../assets/download.png';
 
 const Download = () => {
   return (
-    <div className="download-container">
+    <div
+      className="container d-flex align-items-center justify-content-evenly download-container"
+      id="download"
+    >
       <div className="download-img">
         <img src={imagen5} alt="frame"></img>
       </div>
@@ -15,7 +18,7 @@ const Download = () => {
           consectetur adipiscing elit. Maecenas convallis vel purus in
           dignissim.
         </p>
-        <button className="btn">Download</button>
+        <button className="btn btn-primary">Download</button>
       </div>
     </div>
   );

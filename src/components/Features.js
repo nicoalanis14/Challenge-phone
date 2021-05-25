@@ -26,7 +26,7 @@ const Features = () => {
     }
   ];
   return (
-    <div className="features-container">
+    <div className="container-features" id="features">
       {feature.map((feat) => (
         <Featuresbox img={feat.img} title={feat.title} parrafo={feat.parrafo} />
       ))}
